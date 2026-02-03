@@ -1,18 +1,60 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title> Đăng nhập</title>
-	</head>
-	<body>
-		<h2 text-align="center">Đăng ký xem bản đồ sao</h2>
-	<form align="center" color="#296374">
-		<label for="email">Họ và tên:</label>
-			<input id="email" type="text" name="email">
-			<br>
-		<label for="mk">Email/Số điện thoại:</label>
-			<input id="mk" type="text" name="mk">
-			<br>
-		<input type="submit" value="Đăng ký">
-	</form>
+<head>
+    <meta charset="utf-8">
+    <title>Đăng ký</title>
+    <style>
+        body {background-color: #e8f3f5;font-family: Arial;}
+
+        h2 {text-align: center;color: #296374;
+        }
+
+        form {
+            width: 300px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid #296374;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 6px;
+            margin-top: 5px;
+            border: 1px solid #999;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            margin-top: 15px;
+            background-color: #296374;
+            color: white;
+            border: none;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Đăng ký xem bản đồ sao</h2>
+
+<form>
+    <label for="email">Họ và tên:</label>
+    <input id="email" type="text" name="email">
+
+    <label for="mk">Email / Số điện thoại:</label>
+    <input id="mk" type="text" name="mk">
+
+    <input type="submit" value="Đăng ký">
+</form>
+
+</body>
 </html>
